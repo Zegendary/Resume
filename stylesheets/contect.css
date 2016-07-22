@@ -23,7 +23,7 @@ html,body{
     text-align: center;
 }
 .maininner>.qr-code>div>img{
-    width: 100%;
+    width: 50%;
 }
 .maininner>p{
 	margin-bottom: 0.5em;
@@ -88,4 +88,7 @@ html,body{
 	.maininner form input[type='submit'],.maininner form input[type='reset']{
 		width: 48%;
 	}
+    .maininner>.qr-code>div>img{
+    width: 80%;
+}
 }
