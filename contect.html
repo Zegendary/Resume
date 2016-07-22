@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="stylesheets/contect.css">
 	<link rel="stylesheet" href="https://at.alicdn.com/t/font_1468920013_492283.css">
 	<script src="javascript/jquery-1.12.4.min.js"></script>
-	<script src="javascript/jquery.form.min.js"></script>
+	<!-- <script src="javascript/jquery.form.min.js"></script> -->
 	<title>张新望zxw</title>
 </head>
 <body>
@@ -37,21 +37,31 @@
 					<p class="source">
 					Open source:<a href="https://github.com/Zegendary/Garbage" target="_blank">GitHub</a>
 					<br>
-					<span class="right">© copyright Zegendary,2016</span>
+					<span class="right">© copyright 张新望,2016</span>
 					</p>
 				</div>
 			</footer>
 		</aside>
-		<div class="main">
+		<div class="main clear-fix">
 			<div class="maininner">
+				<div class="qr-code clear-fix">
+					<div class="wx">
+						<img src="img/WX-QR.jpg" alt="">
+						<p>微信二维码</p>
+					</div>
+					<div class="qq">
+						<img src="img/QQ-QR.jpg" alt="">
+						<p>QQ二维码</p>
+					</div>
+				</div>
 				<p>Send me an email</p>
-				<form id='myform' action="mailto:18817337828@168.com" method="post" enctype="text/plain" novalidate="novalidate">
+				<form id='myform' action="mailto:18817337828@168.com?subject=Job Opportunity" method="post" enctype="text/plain" novalidate="novalidate">
 					<p class="name">Your name:</p>
-					<input type="text" name="name" size="40">
+					<input type="text" name="name" size="40" placeholder="Your English Name">
 					<p class="add">Your email:</p>
-					<input type="email" name="mail" size="40">
+					<input type="email" name="mail" size="40" placeholder="example@mail.com">
 					<p class="text">Your message:</p>
-					<textarea name="your-massage" id="message" cols="40" rows="10"></textarea>
+					<textarea name="your-massage" id="message" cols="40" rows="10" placeholder="期待您的邮件"></textarea>
 					<input type="submit" value="SEND">
 					<input type="reset" value="RESET">
 				</form>				
@@ -62,12 +72,12 @@
 		$('.menu').on('click',function(){
 			$('aside').toggleClass('active')
 		})
-        $(document).ready(function() { 
-            // bind 'myForm' and provide a simple callback function 
-            $('#myForm').ajaxForm(function() { 
-                alert("Thank you for your comment!"); 
-            }); 
-        }); 
+        // $(document).ready(function() { 
+        //     // bind 'myForm' and provide a simple callback function 
+        //     $('#myForm').ajaxForm(function() { 
+        //         alert("Thank you for your comment!"); 
+        //     }); 
+        // }); 
 	</script>
 </body>
 </html>

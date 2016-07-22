@@ -64,6 +64,10 @@ html,body{
 	    left: 0;
 	    z-index: 10;
 	    text-align: center;
+		background-color: rgba(0,0,0,.25)
+	}
+	.project-items>a:hover>div{
+		background-color: transparent;
 	}
 	.project-items>a>div:after{
 		position: absolute;
@@ -171,6 +175,10 @@ html,body{
 	    left: 0;
 	    z-index: 10;
 	    text-align: center;
+		background-color: rgba(0,0,0,.25)
+	}
+	.demo-items>a:hover>div{
+		background-color: transparent;
 	}
 	.demo-items>a>div:after{
 		position: absolute;
@@ -231,7 +239,7 @@ html,body{
 		display: block;
 		padding-bottom: 30px;
 	    margin-bottom: 30px;
-	    border-bottom: 2px solid #eff0f2;
+	    border-bottom: 2px solid #242525;
 	}
 	.workwrapper a img{
 		width: 100%;

@@ -18,6 +18,9 @@ a{
     transition: all 150ms ease-in;
 	text-decoration: none;
 }
+body,html{
+	background-color: #eeeeee;
+}
 .page-wrapper{
 	height: 100%;
 }
